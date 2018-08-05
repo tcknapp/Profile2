@@ -2,6 +2,7 @@
       font: 400 15px/1.8 "Lato", sans-serif;
       color: #777;
   }
+
   h3, h4 {
       margin: 10px 0 30px 0;
       letter-spacing: 10px;      
@@ -9,7 +10,7 @@
       color: #111;
   }
   .container {
-      padding: 80px 120px;
+      padding: 10px 120px;
   }
 
   .col-centered{
@@ -33,14 +34,25 @@
       width: 100%; /* Set width to 100% */
       margin: auto;
   }
-  .carousel-caption h3 {
-      color: #fff !important;
+
+  .carousel-caption {
+    top: 50%;
+    transform: translateY(-20%);
+    bottom: initial;
   }
-  @media (max-width: 600px) {
+
+  .carousel-caption h1 {
+      color: #fff !important;
+      font-size: 50px;
+      
+  }
+
+  /* @media (max-width: 600px) {
     .carousel-caption {
       display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
-    }
-  }
+    /*}
+  } */
+  
   .bg-1 {
       background: #2d2d30;
       color: #bdbdbd;
@@ -108,7 +120,7 @@
   }
   .navbar-nav li.active a {
       color: #fff !important;
-      background-color: #29292c !important;
+      background-color: #5a5a5c !important;
   }
   .navbar-default .navbar-toggle {
       border-color: transparent;
