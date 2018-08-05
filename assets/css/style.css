@@ -23,7 +23,6 @@
       width: 30%;
       height: 30%;
       opacity: 0.7;
-      margin: 0 auto;
   }
   .person:hover {
       border-color: #f1f1f1;
@@ -93,15 +92,17 @@
   .navbar {
       font-family: "Montserrat", sans-serif;
       margin-bottom: 0;
-      background-color: #2d2d30;
+      background-color: #2d2d30 !important;
       border: 0;
       font-size: 11px !important;
       letter-spacing: 4px;
       opacity: 0.9;
   }
+
   .navbar li a, .navbar .navbar-brand { 
       color: #d5d5d5 !important;
   }
+
   .navbar-nav li a:hover {
       color: #fff !important;
   }
@@ -125,7 +126,7 @@
   footer {
       background-color: #2d2d30;
       color: #f5f5f5;
-      padding: 32px;
+      padding: 20px;
   }
   footer a {
       color: #f5f5f5;
