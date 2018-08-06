@@ -133,12 +133,12 @@
       color: #000 !important;
   }
   .dropdown-menu li a:hover {
-      background-color: red !important;
+      background-color: teal !important;
   }
   footer {
       background-color: #2d2d30;
       color: #f5f5f5;
-      padding: 20px;
+      padding: 2px;
   }
   footer a {
       color: #f5f5f5;
