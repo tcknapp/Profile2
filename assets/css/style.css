@@ -24,6 +24,8 @@
       width: 30%;
       height: 30%;
       opacity: 0.7;
+      -webkit-filter: grayscale(80%);
+      filter: grayscale(80%);
   }
   .person:hover {
       border-color: #f1f1f1;
@@ -159,3 +161,52 @@
       resize: none;
   }
 
+  /* For Social Links */
+  /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
+.icon-bar {
+    position: fixed;
+    top: 30%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    opacity: .9;
+  }
+  
+  /* Style the icon bar links */
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.1s ease;
+    color: white;
+    font-size: 16px;
+  }
+  
+  /* Style the social media icons with color, if you want */
+  .icon-bar a:hover {
+    background-color: rgb(255, 255, 255);
+  }
+  
+  .facebook {
+    background: #2d2d30;
+    color: white;
+    opacity: .8;
+    border-radius: 50%;
+  }
+  
+  
+  .linkedin {
+    background: #2d2d30;
+    color: white;
+    opacity: .8;
+    border-radius: 50%;
+  }
+  
+  .github {
+    background: #2d2d30;
+    color: white;
+    opacity: .8;
+    border-radius: 50%;
+  }
+
+  
