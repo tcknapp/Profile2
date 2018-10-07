@@ -38,12 +38,11 @@
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
-                    <!-- <li><a href="#myPage">HOME</a></li> -->
                     <li>
                         <a href="#aboutme">ABOUT</a>
                     </li>
                     <li>
-                        <a href="#portfolio">PORTFOLIO</a>
+                        <a href="portfolio.html">PORTFOLIO</a>
                     </li>
                     <li>
                         <a href="#contact">CONTACT</a>
@@ -68,7 +67,7 @@
             </div>
         </div>
     </nav>
-    
+
 
     <!--Main Photo (add others later)-->
 
@@ -89,17 +88,21 @@
     <!--Social Section-->
     <div class="icon-bar">
         <a href="https://www.linkedin.com/in/trevor-knapp-59035646" class="linkedin"><i class="fa fa-linkedin"></i></a>
-        <a href="https://www.github.com/tcknapp" class="github"><i class="fa fa-github"></i></a> 
-        <a href="https://www.facebook.com" class="facebook"><i class="fa fa-facebook"></i></a> 
-      </div>
+        <a href="https://www.github.com/tcknapp" class="github"><i class="fa fa-github"></i></a>
+        <a href="https://www.facebook.com" class="facebook"><i class="fa fa-facebook"></i></a>
+    </div>
 
     <!-- About Me -->
-    <div id="aboutme" class="container text-center">
-
-        <h3>ABOUT ME</h3>
-        <p>Currently a student in the UC Davis Coding Boot Camp. Full-Stack Web Development.</p>
-        <p>My passions lie in Visual and Media Design. </p> 
-        <p>Continuously furthering my knowledge and experience in: <br>
+    <div id="aboutme" class="bg-1">
+        <div class="container">
+        <a href="#demo1" data-toggle="collapse">
+            <h3><center>ABOUT ME</center></h3>
+        </a>
+        <div id="demo1" class="collapse">
+            <p>Currently a student in the UC Davis Coding Boot Camp. Full-Stack Web Development.</p>
+            <p>My passions lie in Visual and Media Design. </p>
+            <p>Continuously furthering my knowledge and experience in: <br>
+               <center>
                 - Bootstrap<br>
                 - CSS<br>
                 - Express<br>
@@ -107,217 +110,149 @@
                 - JavaScript<br>
                 - Node<br>
                 - Sequelize<br>
-        </p>
-        <hr>
+               </center>
+            </p>
 
-        <h3>EDUCATION</h3>
-        <p>Full-Stack Web Development Boot Camp - UC Davis Extension, Sacramento</p>
-        <p>Bachelor of Arts in Communication Studies - Cal State University, Northridge </p>
-        <p>Web Marketing and Media Design Certificate - Santa Barbara City College</p>
-        <br>
-
-        <div class="row">
-            <div class="col-md-12 col-centered text-center">
-                <!-- <p class="text-center"><strong>TREVOR</strong></p><br> -->
-                <a href="#demo" data-toggle="collapse">
-                    <img src="assets/images/andyandi.png" class="img-circle person" alt="Trevor" width="305" height="255">
-                </a>
-                <div id="demo" class="collapse">
-                    <p>Family, Music, Gym, Concerts, Films</p>
-                    <p>Love exploring new cities and frontiers</p>
-                    <p>'Since 1991</p>
+            <div class="row">
+                <div class="col-md-12 col-centered text-center">
+                    <a href="#demo" data-toggle="collapse">
+                        <img src="assets/images/andyandi.png" class="img-circle person" alt="Trevor" width="205" height="155">
+                    </a>
+                    <div id="demo" class="collapse">
+                        <p>Family, Music, Gym, Concerts, Films</p>
+                        <p>Love exploring new cities and frontiers</p>
+                        <p>'Since 1991</p>
+                    </div>
                 </div>
             </div>
         </div>
+        </div>
     </div>
+
+    <div id="education" class="bg-2">
+        <a href="#demo2" data-toggle="collapse">
+            <center><h3>EDUCATION</h3>
+        </a>
+        <div id="demo2" class="collapse">
+            <center>
+            <p>Full-Stack Web Development Boot Camp - UC Davis Extension, Sacramento</p>
+            <p>Bachelor of Arts in Communication Studies - Cal State University, Northridge </p>
+            <p>Web Marketing and Media Design Certificate - Santa Barbara City College</p>
+            </center>
+        </div>
+    </div>
+
 
     <!-- Portfolio -->
-    <div id="portfolio" class="bg-1">
-        <div class="container">
-            <h3 class="text-center">PORTFOLIO</h3>
-            <p class="text-center">Just some projects, games, and fun I've worked on... </p>
+    <div id="portfolio" class="container bg-1">
+        <div class="container text-center">
+            <a href="#demo3" data-toggle="collapse">
+                <h3>PORTFOLIO</h3>
+            </a>
+            <div id="demo3" class="collapse">
+                <p class="text-center">Just some projects, games, and fun I've worked on... </p>
 
+                <!--Use Carousel Effect To Sroll Projects-->
 
-            <!--Use Carousel Effect To Sroll Projects-->
+                <div class="row text-center">
 
-            <!--End Test Carousel-->
-            
-            <div class="row text-center">
-
-                <!--Giffically-->
-                <div class="col-sm-4">
-                    <div class="thumbnail">
-                        <a href="https://sbdesai75.github.io/Project1/"><img src="assets/images/giffic2.png" alt="Giffically" width="400" height="300"></a>
-                        <p>
-                            <strong>Giffically</strong>
-                        </p>
-                        <p>Music + Gif Mashup</p>
-                        <p>CSS, JS, jQuery</p>
-                        <button class="btn">
+                    <!--Giffically-->
+                    <div class="col-sm-4">
+                        <div class="thumbnail">
+                            <a href="https://sbdesai75.github.io/Project1/"><img src="assets/images/giffic2.png" alt="Giffically"
+                                    width="400" height="300"></a>
+                            <p>
+                                <strong>Giffically</strong>
+                            </p>
+                            <p>Music + Gif Mashup</p>
+                            <p>CSS, JS, jQuery</p>
+                            <button class="btn">
                                 <a href="https://github.com/sbdesai75/Project1"><img src="assets/images/GitHub-Mark-Light-32px.png"></a>
-                        </button>
+                            </button>
+                        </div>
                     </div>
-                </div>
 
-                <!--ClapperBoard-->
-                <div class="col-sm-4">
-                    <div class="thumbnail">
-                        <a href="https://ancient-peak-61207.herokuapp.com/">
-                            <img src="assets/images/claperb.png" alt="ClapperBoard" width="400" height="300">
-                        </a>
-                        <p>
-                            <strong>ClapperBoard</strong>
-                        </p>
-                        <p>A Social Movie Database</p>
-                        <p>Sequelize, Anime.js</p>
-                        <button class="btn">
-                            <a href="https://github.com/TeresaGrossman/Project2">
-                                <img src="assets/images/GitHub-Mark-Light-32px.png">
+                    <!--ClapperBoard-->
+                    <div class="col-sm-4">
+                        <div class="thumbnail">
+                            <a href="https://ancient-peak-61207.herokuapp.com/">
+                                <img src="assets/images/claperb.png" alt="ClapperBoard" width="400" height="300">
                             </a>
-                        </button>
+                            <p>
+                                <strong>ClapperBoard</strong>
+                            </p>
+                            <p>A Social Movie Database</p>
+                            <p>Sequelize, Anime.js</p>
+                            <button class="btn">
+                                <a href="https://github.com/TeresaGrossman/Project2">
+                                    <img src="assets/images/GitHub-Mark-Light-32px.png">
+                                </a>
+                            </button>
+                        </div>
                     </div>
-                </div>
 
-           
-                <!--SequelizeBurger-->
-                <div class="col-sm-4">
-                    <div class="thumbnail">
-                        <a href="https://sequel-burger.herokuapp.com/"></a>
+
+                    <!--SequelizeBurger-->
+                    <div class="col-sm-4">
+                        <div class="thumbnail">
+                            <a href="https://sequel-burger.herokuapp.com/"></a>
                             <img src="assets/images/brgr.png" alt="Sequel Burger" width="400" height="300">
-                        </a>
-                        <p>
-                            <strong>Sequel Burger</strong>
-                        </p>
-                        <p>A Burger App</p>
-                        <p>Sequelize, Handlebars</p>
-                        <button class="btn">
-                            <a href="https://github.com/tcknapp/sequelizedBurger">
-                                <img src="assets/images/GitHub-Mark-Light-32px.png">
                             </a>
-                        </button>
+                            <p>
+                                <strong>Sequel Burger</strong>
+                            </p>
+                            <p>A Burger App</p>
+                            <p>Sequelize, Handlebars</p>
+                            <button class="btn">
+                                <a href="https://github.com/tcknapp/sequelizedBurger">
+                                    <img src="assets/images/GitHub-Mark-Light-32px.png">
+                                </a>
+                            </button>
+                        </div>
                     </div>
+                    <p><a href=portfolio.html>ALL PORTFOLIO WORK</a></p>
                 </div>
-
-            <p><a href=portfolio.html>ALL PORTFOLIO WORK</a></p>
-
-                <!--FIRST OFF SCREEN MODAL-->
-                <!-- <div class="col-sm-4">
-            <div class="thumbnail">
-              <img src="assets/images/giffic2.png" alt="Giffically" width="400" height="300">
-              <p><strong>Giffically</strong></p>
-              <p>Music + Gif Mashup</p>
-              <p>CSS, JS, jQuery</p>
-              <button class="btn" data-toggle="modal" data-target="#myModal">Buy Tickets</button>
-            </div>
-          </div> -->
             </div>
         </div>
-
-        <!-- Modal - 'Explore link'
-        <div class="modal fade" id="myModal" role="dialog">
-            <div class="modal-dialog">
-
-                
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal">×</button>
-                        <h4>
-                            <span class="glyphicon glyphicon-sunglasses"></span> Explore</h4>
-                    </div>
-                    <div class="modal-body">
-                        <form role="form">
-                            <div class="form-group">
-                                <label for="psw">
-                                    <span class="glyphicon glyphicon-shopping-cart"></span> Tickets, $23 per person</label>
-                                <input type="number" class="form-control" id="psw" placeholder="How many?">
-                            </div>
-                            <div class="form-group">
-                                <label for="usrname">
-                                    <span class="glyphicon glyphicon-user"></span> Send To</label>
-                                <input type="text" class="form-control" id="usrname" placeholder="Enter email">
-                            </div>
-                            <button type="submit" class="btn btn-block">Pay
-                                <span class="glyphicon glyphicon-ok"></span>
-                            </button>
-                        </form>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
-                            <span class="glyphicon glyphicon-remove"></span> Cancel
-                        </button>
-                        <p>Need
-                            <a href="#">help?</a>
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>-->
     </div>
 
-    <!-- Container (Contact Section) -->
-    <div id="contact" class="container">
-        <h3 class="text-center">CONTACT</h3>
-        <p class="text-center">
-            <em></em>
-        </p>
 
-        <div class="row">
-            <div class="col-md-4">
-                <p>Inquiries? Drop a note.</p>
-                <p>
-                    <span class="glyphicon glyphicon-map-marker"></span>Roseville, CA, US </p>
-                <!-- <p><span class="glyphicon glyphicon-phone"></span>Phone: +00 1515151515</p> -->
-                <p>
-                    <span class="glyphicon glyphicon-envelope"></span>Email: trevor.knapp.1991@gmail.com</p>
-            </div>
-            <div class="col-md-8">
-                <div class="row">
-                    <div class="col-sm-6 form-group">
-                        <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
-                    </div>
-                    <div class="col-sm-6 form-group">
-                        <input class="form-control" id="email" name="email" placeholder="Email" type="email" required>
-                    </div>
+    <!-- Container (Contact Section) -->
+    <div id="contact" class="container bg-2">
+        <a href="#demo4" data-toggle="collapse">
+            <h3><center>CONTACT</center></h3>
+        </a>
+        <div id="demo4" class="collapse">
+            <div class="row">
+                <div class="col-md-4">
+                    <p>Inquiries? Drop a note.</p>
+                    <p>
+                        <span class="glyphicon glyphicon-map-marker"></span>Roseville, CA, US </p>
+                    <!-- <p><span class="glyphicon glyphicon-phone"></span>Phone: +00 1515151515</p> -->
+                    <p>
+                        <span class="glyphicon glyphicon-envelope"></span>Email: trevor.knapp.1991@gmail.com</p>
                 </div>
-                <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
-                <br>
-                <div class="row">
-                    <div class="col-md-12 form-group">
-                        <button class="btn pull-right" type="submit">Send</button>
+                <div class="col-md-8">
+                    <div class="row">
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="name" name="name" placeholder="Name" type="text" required>
+                        </div>
+                        <div class="col-sm-6 form-group">
+                            <input class="form-control" id="email" name="email" placeholder="Email" type="email"
+                                required>
+                        </div>
+                    </div>
+                    <textarea class="form-control" id="comments" name="comments" placeholder="Comment" rows="5"></textarea>
+                    <br>
+                    <div class="row">
+                        <div class="col-md-12 form-group">
+                            <button class="btn pull-right" type="submit">Send</button>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <br>
 
-        <!--Bottom 'Blog Section'
-        <h3 class="text-center">From The Blog</h3>
-        <ul class="nav nav-tabs">
-            <li class="active">
-                <a data-toggle="tab" href="#home">Mike</a>
-            </li>
-            <li>
-                <a data-toggle="tab" href="#menu1">Chandler</a>
-            </li>
-            <li>
-                <a data-toggle="tab" href="#menu2">Peter</a>
-            </li>
-        </ul>
-
-        <div class="tab-content">
-            <div id="home" class="tab-pane fade in active">
-                <h2>Mike Ross, Manager</h2>
-                <p>Man, we've been on the road for some time now. Looking forward to lorem ipsum.</p>
-            </div>
-            <div id="menu1" class="tab-pane fade">
-                <h2>Chandler Bing, Guitarist</h2>
-                <p>Always a pleasure people! Hope you enjoyed it as much as I did. Could I BE.. any more pleased?</p>
-            </div>
-            <div id="menu2" class="tab-pane fade">
-                <h2>Peter Griffin, Bass player</h2>
-                <p>I mean, sometimes I enjoy the show, but other times I enjoy other things.</p>
-            </div>
-        </div>-->
     </div>
 
     <!-- Footer -->
