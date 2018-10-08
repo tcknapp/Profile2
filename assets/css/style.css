@@ -177,6 +177,13 @@
       resize: none;
   }
 
+  .lang-icons {
+      size: 150px 150px;
+  }
+  i {
+      size: 150px 150px;
+  }
+
   /* For Social Links */
   /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
 .icon-bar {
