@@ -1,3 +1,3 @@
-# Profile2
+# Resume
 
-Professional Portfolio (in progress)
+Professional Portfolio (Constantly in progress)
